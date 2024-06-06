@@ -4,8 +4,7 @@ import hero from "../Assessts/hero.svg"
 const HeroPage = () => {
     const gradientBorder = 'linear-gradient(to right, #a78bfa, #ec4899)';
   return (
-<div className="min-h-screen bg-gradient-to-r from-gray-900 to-black">
-
+<div class="min-h-screen border-b rounded-bl-[100px] rounded-br-[140px] bg-gradient-to-l from-gray-900 to-black">
 <div className="container mx-auto px-4 py-16">
         <h1 className="text-5xl  font-bold text-white text-start mb-8">
         Every order <br />
